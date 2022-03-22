@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-latinize-master.flake = false;
+  inputs.src-latinize-master.ref   = "refs/heads/master";
   inputs.src-latinize-master.owner = "AmanoTeam";
-  inputs.src-latinize-master.ref   = "master";
   inputs.src-latinize-master.repo  = "Latinize";
   inputs.src-latinize-master.type  = "github";
   
