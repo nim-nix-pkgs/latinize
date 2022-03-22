@@ -1,5 +1,5 @@
 {
-  description = ''Convert accents (diacritics) from strings to latin characters.'';
+  description = ''Simple Nim library to convert accents (diacritics) from strings to latin characters.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-latinize-master.flake = false;
   inputs.src-latinize-master.owner = "AmanoTeam";
-  inputs.src-latinize-master.ref   = "refs/heads/master";
+  inputs.src-latinize-master.ref   = "master";
   inputs.src-latinize-master.repo  = "Latinize";
   inputs.src-latinize-master.type  = "github";
   
