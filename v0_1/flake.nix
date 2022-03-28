@@ -11,7 +11,6 @@
   inputs.src-latinize-v0_1.ref   = "refs/tags/v0.1";
   inputs.src-latinize-v0_1.owner = "AmanoTeam";
   inputs.src-latinize-v0_1.repo  = "Latinize";
-  inputs.src-latinize-v0_1.dir   = "";
   inputs.src-latinize-v0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
