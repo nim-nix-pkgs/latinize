@@ -11,6 +11,7 @@
   inputs.src-latinize-master.ref   = "refs/heads/master";
   inputs.src-latinize-master.owner = "AmanoTeam";
   inputs.src-latinize-master.repo  = "Latinize";
+  inputs.src-latinize-master.dir   = "";
   inputs.src-latinize-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
